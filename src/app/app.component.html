@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" (click)="listData()">POC</a></h2>
+  </li>
+</ul>
+<div *ngFor='let obj of cars'> 
+  Hello world
+  <ul>
+    <li> {{obj.brand}}</li>
+    <li> {{obj.year}} </li>
+    <li> {{obj.color}} </li>
+  </ul>
+</div>
+
